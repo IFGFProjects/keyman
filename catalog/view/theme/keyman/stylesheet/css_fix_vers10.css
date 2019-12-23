@@ -1,0 +1,112 @@
+
+@media (max-width: 479px) {
+    .mobile_off  {
+        display: none;
+    }
+   .width_pc .col-md-4.col-sm-6{
+        padding: 0;
+    }
+}
+@media (min-width: 479px) {
+ .on_block {
+     display: block !important;
+ }   
+
+ .dropdown-menu ul li.boild_li a{
+     font-weight: bold;
+     color: black;
+     /*font-size: 20px;*/
+    text-transform: uppercase;
+ } 
+ .dropdown-menu ul li a:hover{
+    color: #6A0C13;
+    /*font-weight: 500;*/
+ }
+ .dropdown-menu ul li.boild_li{
+    margin: 5px 0px;
+ }
+ .dropdown-menu ul li a{
+     text-decoration:none;
+     color: black;
+ }
+}
+
+.pc_off  {
+    display: none;
+}
+.cat_pc {
+
+}
+.col-md-4.col-sm-6.width_pc {
+    width: 100%;
+}
+.navbar-nav .dropdown-menu ul.middle-categories:last-child li:last-child a, .js-submenu li:last-child a {border: none;}
+#thematic-js.js-submenu li:first-child {
+    display: none;
+}
+@media (min-width: 992px) and (max-width: 1364px) {
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: -45px;
+  }
+}
+@media (max-width: 991px) {
+  .social-row .block_1 {
+    width: 50%;
+    float: left;
+  }
+  .nav > li > a {
+      padding: 0 9px;
+  }
+  .social-row .col-sm-4{
+    width: 50%;
+  }
+  .col-sm-4.artclel_seo {
+    width: 100%;
+  }
+}
+ .vk-block, #vk_groups {
+  width: 100% !important;
+}
+ #vk_groups iframe, #vk_groups iframe #page_wrap #main, iframe #main.wcommunity_wrap div{
+  width: 100% !important;
+}
+
+@media (min-width: 992px) {
+  .social-row .block_1 {
+      width: 33.33333333%;
+      float: left;
+  }
+  .block_1, .block_2.col-sm-6 {
+      width: 33.33333333%;
+      float: left;
+  }
+
+.social-row {
+    display: flex;
+}
+
+.social-row > .block_1 {order: 1; } 
+.social-row > .block_2 {order: 3; } 
+.social-row > .block_3 {order: 2; }
+
+}
+.width_pc .spec_url{
+  margin-top: -5px;
+}
+ .one_tag{
+  text-decoration: underline;
+  font-size: 15px;
+  color: black;
+}
+.tags_product .title_tags{
+  color: black;
+}
+.tags_menu a span {
+  color:#7a7a7a;
+}
+header .cart, 
+.product-block .product-buy.mt20, 
+ .product-block .btn.btn-default.btn-lg.ttu.mt10, 
+ .product-cart .product-buttons {
+  display: none;
+}
